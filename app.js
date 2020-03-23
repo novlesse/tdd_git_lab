@@ -1,8 +1,8 @@
 const upperCase = (string) => {
-    // throw an error if sentence has numbers
-    // checks input with regex
+    // check input with regex for integers
     if (/\d/.test(string))
         throw Error("Sentence cannot include numbers.");
+    // check if input is empty
     if (!string.length)
         throw Error("Sentence cannot be empty."); {
         // convert input into an array
@@ -22,4 +22,3 @@ const upperCase = (string) => {
 module.exports = {
     upperCase
 };
-
