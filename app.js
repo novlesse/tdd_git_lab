@@ -22,3 +22,4 @@ const upperCase = (string) => {
 module.exports = {
     upperCase
 };
+
