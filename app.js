@@ -12,7 +12,7 @@ const upperCase = (string) => {
             // starting at index 0 of each element in the array
             // uppercase the first character
             // add this character to the extracted substring starting at index 1
-            sentence[i] = sentence[i].charAt(0)
+            sentence[i] = sentence[i].charAt(0).toUpperCase() + sentence[i].substring(1);
         }
         // combine or join the array back together into a "sentence"
         return sentence.join(' ');
