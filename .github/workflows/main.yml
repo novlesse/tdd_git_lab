@@ -22,7 +22,5 @@ jobs:
       - name: npm test
         run: npm test
       
-      - name: esLint
-        uses: eslint/github-action@v0
-        with:
-          files: src/
+      - name: ESLint Action
+        uses: hallee/eslint-action@1.0.1
