@@ -22,5 +22,5 @@ jobs:
       - name: npm test
         run: npm test
       
-      - name: ESLint Action
-        uses: hallee/eslint-action@1.0.1
+      - name: Black Code Formatter
+        uses: lgeiger/black-action@v1.0.1
